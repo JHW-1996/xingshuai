@@ -1,0 +1,484 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+html{
+	font-size:62.5%;
+	background: #fff;
+}
+p,
+div,
+a,
+li {
+    font-family: "微软雅黑";
+    text-decoration: none;
+    list-style: none;
+}
+.pull-left {
+  	float: left !important;
+}
+.pull-right {
+  	float: right !important;
+}
+
+.clearfix() {
+	  &:before,
+	  &:after {
+	    content: " ";
+	    display: table;
+	  }
+	  &:after {
+	    clear: both;
+	  }
+}
+::selection {
+   	background:#d3d3d3; 
+    color:#555;
+}
+.center-block {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+/*头部*/
+.top{
+	width: 100%;
+}
+.top_content{
+	width: 70%;
+	background: white;
+	display: flex;
+    flex-direction: row;
+    padding: 50px 0 40px 0;
+}
+.con_left{
+	width: 152px;
+	padding: 0 15px 0 0;
+	border-right: solid 4px #000000;
+	line-height: 43px;
+	font-size: 35px;
+}
+.con_centre{
+	width: 185px;
+	padding: 0 0 0 5px;
+}
+.con_centre span{
+	font-size: 22px;
+	color: #333333;
+}
+.con_centre p{
+	font-size: 16px;
+	color: #666666;
+}
+.con_right{
+	margin-left: 350px;
+	width: 185px;
+	color: #333333;
+	font-size: 16px;
+}
+/*banner图*/
+.banner{
+	width: 100%;
+	background-image: url(../img/366323266449423054.png);
+	background-size: 100%;
+	padding-bottom: 480px;
+}
+.nav{
+	width: 90%;
+	background-color:#000000;
+}
+.nav ul{
+	width: 80%;
+	display: flex;
+    flex-direction: row;
+}
+.nav ul li{
+	width: 20%;
+	text-align: center;
+	color: white;
+	line-height: 17px;
+	padding: 13px 0 13px 0;	
+}
+.nav ul li a{
+	color: white;
+}
+.nav li:hover{
+	background: #666666;
+}
+/*市场研究调研*/
+.bazaar{
+	width: 100%;
+}
+.bazaar_con{
+	width: 70%;
+	padding: 27px 0 30px 0;
+}
+.bazaar_top{
+	width: 222px;
+}
+.bazaar_nr{
+	width: 170px;
+	font-size: 17px;
+	color: #333333;
+	padding: 36px 0 46px 0;
+}
+.bazaar_nr p{
+	color: red;
+	display: inline-block;	
+}
+.bazaar_fenxi{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.fenxi_left{
+	width: 32%;
+	background-image: url(../img/s_05.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+}
+.fenxi_left_bottom{
+	width: 210px;
+	padding: 47px;
+	margin-top: 200px;
+	text-align: center;
+}
+.fenxi_left_bottom p{
+	display: inline-block;
+	color:red;
+}
+.fenxi_left_bottom span{
+	margin-top: 25px;
+	display: block;
+	line-height: 20px;
+	color: #666666;
+	font-size: 13px;
+}
+.fenxi_centre{
+	width: 32%;
+	background-image: url(../img/s_07.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	margin-left: 2%;
+}
+.fenxi_right{
+	width: 32%;
+	background-image: url(../img/s_09.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-sizing: border-box;
+	margin-left: 2%;
+}
+/*课程了解*/
+.course{
+	width: 100%;
+	background-image: url(../img/2-beijing4.png);
+	background-size: cover;	
+}
+.course_con{
+	width: 70%;	
+	padding: 20px 0 20px 0;
+}
+.course_con_details{
+	width: 170px;
+	font-size: 17px;
+	color: white;
+	padding: 36px 0 56px 0;
+}
+.course_con_details p{
+	color: #3399ff;
+	display: inline-block;	
+}
+.course_con_tubiao ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	margin-bottom: 40px;
+}
+.course_con_tubiao ul li{
+	width: 96px;
+	height: 96px;
+	margin-left: 8%;
+}
+
+.course_con_tubiao ul li:nth-child(1){
+	margin: 0;
+}
+.course_con_tubiao img{
+	width: 100%;
+	height: 100%;
+}
+.course_con_but{
+	width: 278px;
+	padding: 10px 0 10px 0;
+	text-align: center;
+	border:#3190f0 solid 1px;
+	color:#3190f0 ;
+	font-size: 20px;
+	margin-top: 90px;
+	border-radius: 15px;
+}
+/*选择我们*/
+.select{
+	width: 100%;
+}
+.select_con{
+	width: 70%;
+	padding: 22px 0 75px 0;
+} 
+.select_top{
+	width: 100%;
+}
+.select_details{
+	width: 100%;
+	padding: 37px 0 37px 0;
+	font-size: 17px;
+}
+.select_details span{
+	color: #ffcd03;
+}
+.select_con_details{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.select_details_left{
+	width: 100%;
+	background-image: url(../img/s_15.jpg);
+    background-size: 96%;
+    background-repeat: no-repeat;
+	padding: 40px 18px 50px 20px;
+}
+.details_left_top{
+	font-size: 22px;
+	padding: 0 0 10px 0;
+	border-bottom: #000000 2px solid;
+}
+.details_left_bottom{
+	padding: 16px 0 0 0;
+	color: #000000;
+	font-size: 17px;
+	line-height: 30px;
+	text-indent:34px;
+}
+.select_details_middle{
+	width: 100%;
+	background-image: url(../img/s_15.jpg);
+    background-size: 96%;
+    background-repeat: no-repeat;
+	padding: 40px 18px 50px 20px;
+	border-radius: 15px;
+}
+.select_details_right{
+	width: 100%;
+	background-image: url(../img/s_15.jpg);
+    background-size: 96%;
+    background-repeat: no-repeat;
+	padding: 40px 18px 50px 20px;
+}
+.teacher{
+	width: 100%;
+	padding-bottom: 300px;
+	background-image: url(../img/2-beijing4.png);
+	background-size:  cover;
+}
+.teacher_con{
+	width: 70%;
+	padding: 20px 0 30px 0;
+}
+.teacher_details p{
+	padding: 45px 0 55px 0;
+	color: white;
+	font-size: 17px;
+}
+.teacher_details span{
+	color: #ff9966;
+}
+.teacher_img ul{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.teacher_img ul li{
+	width: 77px;
+	height: 77px;
+	margin-left: 30px;
+}
+.teacher_img ul li img{
+	width: 100%;
+	height: 100%;
+}
+.teacher_img p{
+	color: white;
+	text-align: center;
+}
+.teacher_xinxi{
+	width: 160px;
+	height: 194px;
+	border: 3px solid #ff9966;
+	padding: 13px 13px 40px 13px;
+	margin-top: 20px;
+	margin-left: -30px;
+}
+.xinxi_top{
+	padding: 10px 0 10px 0;
+	line-height: 25px;
+	border-bottom: 2px solid #ff9966;
+}
+.xinxi_top p{
+	font-size: 22px;
+}
+.xinxi_top span{
+	font-size: 13px;
+}
+.xinxi_bottom p{
+	line-height: 20px;
+	font-size: 14px;
+}
+.teacher_img ul li div{
+	display: none;
+}
+/*助你就业*/
+.help{
+	width: 100%;
+}
+.help_con{
+	width: 70%;
+	padding: 20px 0 146px 0;
+	
+}
+.help_con_details{
+	padding: 40px 0 127px 0;
+	color: #000000;
+	font-size: 17px;
+}
+.help_con_details span{
+	color: #66ccff;
+}
+.help_con_content{
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+}
+.help_content_left{
+	width: 33%;	
+}
+.help_content_middle{
+	width: 33%;
+	
+}
+.help_content_middle img{
+	width: 200px;
+	height: 225px;
+	margin-top: 50px;
+}
+.help_content_right{
+	width: 33%;
+}
+.content_left_top{
+	display: flex;
+	flex-direction: row;
+}
+.content_left_bottom{
+	display: flex;
+	flex-direction: row;
+	margin-top: 162px;
+}
+.help_content_right_top{
+	display: flex;
+	flex-direction: row;
+}
+.help_content_right_bottom{
+	display: flex;
+	flex-direction: row;
+	margin-top: 162px;
+}
+.dd{
+	padding: 0 0 0 10px;
+}
+.dd p{
+	font-size: 22px;
+	margin-bottom: 10px;
+	font-weight: bold;
+}
+.dd span{
+	font-size: 17px;
+}
+/*友情链接*/
+.footer{
+	width: 100%;
+	background-image: url(../img/4-dibubeijing.png);
+}
+.footer_con{
+	width: 70%;
+	display: flex;
+	flex-direction: row;
+	padding: 87px 0 84px 0;
+}
+.footer_con_left{
+	width: 35%;
+}
+.footer_left_top{
+	padding: 0 0 45px 0;
+	color: white;
+	font-size: 21px;
+}
+.footer_left_bottom{
+	color: white;
+	font-size: 13px;
+	line-height: 42px;
+}
+.footer_con_right{
+	width: 28%;
+	margin-left: 25%;
+}
+.footer_right_top{
+	color: white;
+	font-size: 21px;
+	margin-bottom: 10px;
+}
+.footer_right_top img{
+	margin-top: 12px;
+}
+.footer_inp input{
+	width: 100%;
+	margin-bottom: 10px;
+	background-color: #34393c;
+	border: none;
+	color:white;
+	padding: 8px 0 8px 3px;
+}
+.footer_inp textarea{
+	background-color: #34393c;
+}
+.footer_inp button{
+	width: 100%;
+	padding: 8px 0 8px 0;
+	background-color: #f27520;
+	color: white;
+	margin-top: 10px;
+}
+.footer_bottom{
+	width: 100%;
+	border-top: solid 1px #4e5254;
+	background-color: #191e21;
+	display: flex;
+	flex-direction: row;
+}
+.bottom_con{
+	margin-left: 50%;
+	line-height: 15px;
+	padding: 15px 0 15px 0;
+	font-size: 9px;
+	color: #a6a6a6;
+}
+.shang{
+	margin-top: 6px;
+    margin-left: 26px;
+}
+
+
+
+
